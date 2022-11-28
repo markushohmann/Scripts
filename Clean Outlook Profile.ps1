@@ -11,7 +11,7 @@ if (Test-Path $TestFile -ErrorAction SilentlyContinue) {Exit}
 $RoamingOutlookPath = $env:APPDATA + "\Microsoft\Outlook"
 $LocalOutlookPath = $env:LOCALAPPDATA + "\Microsoft\Outlook"
 $RegOutlookPath = 'HKCU:\Software\Microsoft\Windows NT\CurrentVersion\Windows Messaging Subsystem\Profiles\Outlook' # Outlook 2010
-# $RegOutlookPath = 'HKCU:HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Outlook\Profiles\Outlook' # Outlook 2013
+# $RegOutlookPath = 'HKCU:\Software\Microsoft\Office\15.0\Outlook\Profiles\Outlook' # Outlook 2013
 
 # Script Start
 

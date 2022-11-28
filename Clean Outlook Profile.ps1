@@ -1,6 +1,6 @@
 #  Clean Outlook  Profile
 
-$Title = Outlook Profile Clean Up"
+$Title = "Outlook Profile Clean Up"
 $host.UI.RawUI.WindowTitle = $Title
 
 # Check if Script was running yet
